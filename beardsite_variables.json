@@ -4,15 +4,15 @@
     "parameters": {
     },
     "variables": {      
-        "networkInterfaces_backendserver889_name": [],
-        "networkInterfaces_frontendserver859_name": [],
-        "networkSecurityGroups_backendSERVER_nsg_name": [],
-        "networkSecurityGroups_frontendSERVER_nsg_name": [],
-        "publicIPAddresses_backendSERVER_ip_name": [],
-        "publicIPAddresses_frontendSERVER_ip_name": [],
-        "virtualMachines_backendSERVER_name": [],
-        "virtualMachines_frontendSERVER_name": [],
-        "virtualNetworks_BeardSite_vnet_name": []
+        "networkInterfaces_backendserver889_name": "backend_int",
+        "networkInterfaces_frontendserver859_name": "frontend_int",
+        "networkSecurityGroups_backendSERVER_nsg_name": "backend_nsg",
+        "networkSecurityGroups_frontendSERVER_nsg_name": "frontend_nsg",
+        "publicIPAddresses_backendSERVER_ip_name": "backend_ip",
+        "publicIPAddresses_frontendSERVER_ip_name": "frontend_ip",
+        "virtualMachines_backendSERVER_name": "backend_name",
+        "virtualMachines_frontendSERVER_name": "frontend_name",
+        "virtualNetworks_BeardSite_vnet_name": "vnet_name"
         },
     "resources": [
         {
