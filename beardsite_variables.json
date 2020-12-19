@@ -343,7 +343,7 @@
             "dependsOn": [
                 "[resourceId('Microsoft.Network/publicIPAddresses', variables('publicIPAddresses_backendSERVER_ip_name'))]",
                 "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworks_BeardSite_vnet_name'), 'default')]",
-                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('virtualNetworks_BeardSite_vnet_name'))]"
+                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroups_backendSERVER_nsg_name'))]"
             ],
             "tags": {
                 "BeardSite": "[resourceGroup().location]"
